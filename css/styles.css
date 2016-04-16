@@ -19,11 +19,43 @@ body {
   z-index: 20;
 }
 
-.circle{
+#circle{
   width: 150px;
   height: 150px;
   border-radius: 50%;
   background-color: #CC9F2F;
+  display: none;
+
+}
+
+
+#circle1{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #2FCC51;
+  display: none;
+
+}
+
+
+#circle2{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #CC2FAA;
+  display: none;
+
+}
+
+
+#circle3{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #2F5BCC;
+  display: none;
+
 }
 
 
@@ -57,6 +89,23 @@ a.navbar-brand{
   color: white;
 }
 
+
+.navbar .navbar-nav li a {
+  color: white;
+}
+
+.container .navbar-brand{
+  color: white;
+}
+
+.col-md-5 img{
+  width: 300px;
+  height: 266px;
+}
+
+.navbar-collapse .collapse{
+  height: 100px;
+}
 
 
 
